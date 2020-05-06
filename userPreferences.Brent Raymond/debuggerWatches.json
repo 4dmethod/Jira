@@ -1,0 +1,16 @@
+﻿[
+	{
+		"type": 66,
+		"formula": "$oInput",
+		"expanded": true
+	},
+	{
+		"type": 66,
+		"formula": "$oResponse"
+	},
+	{
+		"type": 66,
+		"formula": "$oBody",
+		"expanded": true
+	}
+]

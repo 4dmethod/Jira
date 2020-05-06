@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE macros SYSTEM "http://www.4d.com/dtd/2007/macros.dtd" >
+
+<macros> 
+
+<macro name="(JIRA"></macro>
+
+<macro name="Select active issue" version="2">
+<text><method>JIRA_Macros (New object("action"; "select"))</method></text>
+</macro>
+
+<macro name="Open in browser" version="2">
+<text><method>JIRA_Macros (New object("action"; "open"))</method></text>
+</macro>
+
+<macro name="Status: In Progress" version="2">
+<text><method>JIRA_Macros (New object("action"; "update";"statusTransition";"In Progress"))</method></text>
+</macro>
+
+<macro name="Status: Done" version="2">
+<text><method>JIRA_Macros (New object("action"; "update";"statusTransition";"Done"))</method></text>
+</macro>
+
+<macro name="Add comment to method" version="2">
+<text><method>JIRA_Macros (New object("action"; "methodComment"))</method></text>
+</macro>
+
+<macro name="Add custom comment to issue..." version="2">
+<text><method>JIRA_Macros (New object("action"; "issueComment"))</method></text>
+</macro>
+
+<macro name="Add method detail comment to issue" version="2">
+<text><method>JIRA_Macros (New object("action"; "update";"comment";"See '<method_path/>'"))</method></text>
+</macro>
+
+<macro name="Add method detail comment to issue {linked}" version="2">
+<text><method>JIRA_Macros (New object("action"; "update";"comment";"See '{methodLink}<method_path/>{methodLink}'"))</method></text>
+</macro>
+
+<macro name="(-"></macro>
+
+</macros>
+
+

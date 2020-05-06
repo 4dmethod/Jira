@@ -1,0 +1,538 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "JIRA Demo",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 10,
+					"left": 10,
+					"width": 963,
+					"height": 725,
+					"labels": [
+						"Config",
+						"Browse",
+						"Create"
+					],
+					"action": "gotoPage",
+					"sizingY": "grow",
+					"sizingX": "grow"
+				}
+			}
+		},
+		{
+			"objects": {
+				"username": {
+					"type": "input",
+					"left": 156,
+					"top": 88,
+					"width": 257,
+					"height": 17,
+					"dataSource": "Form:C1466.username"
+				},
+				"Text": {
+					"type": "text",
+					"text": "User name:",
+					"top": 88,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right"
+				},
+				"token": {
+					"type": "input",
+					"left": 156,
+					"top": 124,
+					"width": 257,
+					"height": 17,
+					"dataSource": "Form:C1466.password"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "API Token:",
+					"top": 124,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right"
+				},
+				"server": {
+					"type": "input",
+					"left": 156,
+					"top": 160,
+					"width": 257,
+					"height": 17,
+					"dataSource": "Form:C1466.server"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Server:",
+					"top": 160,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right"
+				},
+				"project": {
+					"type": "input",
+					"left": 156,
+					"top": 196,
+					"width": 131,
+					"height": 17,
+					"dataSource": "Form:C1466.currentProject"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Project Key:",
+					"top": 196,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right"
+				},
+				"updateConfig": {
+					"type": "button",
+					"text": "Update",
+					"top": 288,
+					"left": 316,
+					"width": 97,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/updateConfig.4dm"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Project Key:",
+					"top": 196,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right"
+				},
+				"currentIssue": {
+					"type": "input",
+					"left": 156,
+					"top": 232,
+					"width": 131,
+					"height": 17,
+					"dataSource": "Form:C1466.currentIssue"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Current Issue:",
+					"top": 232,
+					"left": 31,
+					"width": 114,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "right",
+					"stroke": "#808080"
+				},
+				"chooseProject": {
+					"type": "pictureButton",
+					"left": 293,
+					"top": 194,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/areaMenu.png",
+					"method": "ObjectMethods/chooseProject.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"chooseIssue": {
+					"type": "pictureButton",
+					"left": 293,
+					"top": 230,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/areaMenu.png",
+					"method": "ObjectMethods/chooseIssue.4dm",
+					"useLastFrameAsDisabled": true
+				}
+			}
+		},
+		{
+			"objects": {
+				"issues": {
+					"type": "listbox",
+					"left": 47,
+					"top": 61,
+					"width": 909,
+					"height": 218,
+					"events": [
+						"onDoubleClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick",
+						"onBeginDragOver"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.issues",
+					"currentItemSource": "Form:C1466.selectedIssue",
+					"method": "ObjectMethods/issues.4dm",
+					"sizingY": "grow",
+					"sizingX": "grow",
+					"resizingMode": "legacy",
+					"dragging": "custom",
+					"currentItemPositionSource": "Form:C1466.currentIssuePos",
+					"selectedItemsSource": "Form:C1466.selectedIssues",
+					"rowStyleSource": "",
+					"rowFillSource": "Choose:C955((This:C1470.key=Storage:C1525.JIRA.currentIssue);(235 << 16)+(255 << 8)+235;(255 << 16)+(255 << 8)+255)",
+					"columns": [
+						{
+							"header": {
+								"text": "Key",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.key",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Summary"
+							},
+							"name": "Column2",
+							"width": 258,
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.fields.summary",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Type"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.fields.issuetype.name",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Priority"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.fields.priority.name",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Status"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.fields.status.name",
+							"enterable": false
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Labels"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.fields.labels.join(\", \")",
+							"enterable": false
+						}
+					]
+				},
+				"description": {
+					"type": "input",
+					"left": 47,
+					"top": 299,
+					"width": 345,
+					"height": 337,
+					"dataSource": "",
+					"placeholder": "Description",
+					"sizingY": "move"
+				},
+				"updateIssue": {
+					"type": "button",
+					"text": "Update",
+					"top": 658,
+					"left": 838,
+					"width": 118,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move",
+					"method": "ObjectMethods/updateIssue.4dm",
+					"sizingX": "move"
+				},
+				"issueComments": {
+					"type": "listbox",
+					"left": 412,
+					"top": 331,
+					"width": 544,
+					"height": 265,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"dataSource": "Form:C1466.selectedIssue.fields.comment.comments",
+					"listboxType": "collection",
+					"sizingX": "grow",
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"rowHeight": "3em",
+					"columns": [
+						{
+							"header": {
+								"text": "Date",
+								"name": "Header7"
+							},
+							"name": "Column7",
+							"enterable": false,
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.created",
+							"verticalAlign": "top"
+						},
+						{
+							"header": {
+								"name": "Header8",
+								"text": "Author"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer8"
+							},
+							"enterable": false,
+							"dataSource": "This:C1470.author.displayName",
+							"verticalAlign": "top"
+						},
+						{
+							"header": {
+								"name": "Header9",
+								"text": "Comment"
+							},
+							"name": "Column9",
+							"width": 300,
+							"footer": {
+								"name": "Footer9"
+							},
+							"enterable": false,
+							"dataSource": "This:C1470.body.content.extract(\"content.text\").extract(\"text\").join(\"\\r\")",
+							"wordwrap": "normal",
+							"verticalAlign": "top"
+						}
+					]
+				},
+				"newComment": {
+					"type": "input",
+					"left": 412,
+					"top": 605,
+					"width": 544,
+					"height": 33,
+					"sizingY": "move",
+					"placeholder": "New comment...",
+					"sizingX": "grow"
+				},
+				"reloadIssues": {
+					"type": "button",
+					"text": "Reload",
+					"top": 32,
+					"left": 47,
+					"width": 83,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "fixed",
+					"method": "ObjectMethods/reloadIssues.4dm"
+				},
+				"status": {
+					"type": "input",
+					"left": 412,
+					"top": 299,
+					"width": 126,
+					"height": 17,
+					"placeholder": "Status",
+					"contextMenu": "none",
+					"enterable": false,
+					"dataSource": "",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/status.4dm",
+					"sizingY": "move"
+				}
+			}
+		},
+		{
+			"objects": {
+				"newSummary": {
+					"type": "input",
+					"left": 87,
+					"top": 72,
+					"width": 257,
+					"height": 17,
+					"dataSource": "Form:C1466.newIssue.summary",
+					"placeholder": "Summary"
+				},
+				"clearNewIssue": {
+					"type": "button",
+					"text": "Clear",
+					"top": 319,
+					"left": 87,
+					"width": 102,
+					"height": 23,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/clearNewIssue.4dm"
+				},
+				"newType": {
+					"type": "input",
+					"left": 87,
+					"top": 109,
+					"width": 227,
+					"height": 17,
+					"dataSource": "Form:C1466.newIssue.issuetype",
+					"placeholder": "Type"
+				},
+				"chooseType": {
+					"type": "pictureButton",
+					"left": 324,
+					"top": 109,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/areaMenu.png",
+					"method": "ObjectMethods/chooseType.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"newDescription": {
+					"type": "input",
+					"left": 87,
+					"top": 146,
+					"width": 257,
+					"height": 65,
+					"dataSource": "Form:C1466.newIssue.description",
+					"placeholder": "Description"
+				},
+				"newPriority": {
+					"type": "input",
+					"left": 87,
+					"top": 231,
+					"width": 227,
+					"height": 17,
+					"dataSource": "Form:C1466.newIssue.priority",
+					"placeholder": "Priority"
+				},
+				"choosePriority": {
+					"type": "pictureButton",
+					"left": 324,
+					"top": 231,
+					"width": 20,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"picture": "/RESOURCES/areaMenu.png",
+					"method": "ObjectMethods/choosePriority.4dm",
+					"useLastFrameAsDisabled": true
+				},
+				"newLabels": {
+					"type": "input",
+					"left": 87,
+					"top": 268,
+					"width": 257,
+					"height": 17,
+					"dataSource": "Form:C1466.newIssue.labelString",
+					"placeholder": "Labels"
+				},
+				"createNewIssue": {
+					"type": "button",
+					"text": "Create",
+					"top": 319,
+					"left": 242,
+					"width": 102,
+					"height": 23,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/createNewIssue.4dm"
+				}
+			},
+			"entryOrder": [
+				"newSummary",
+				"newType",
+				"newDescription",
+				"newPriority",
+				"newLabels",
+				"createNewIssue",
+				"clearNewIssue"
+			]
+		}
+	],
+	"method": "method.4dm",
+	"memorizeGeometry": false
+}

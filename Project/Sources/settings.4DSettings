@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
+	<com.4d>
+		<compiler>
+			<options compilation_path="3"/>
+		</compiler>
+		<web>
+			<standalone_server>
+				<configuration port_number="80" publish_at_startup="true"/>
+			</standalone_server>
+		</web>
+		<server>
+			<network>
+				<options publication_name="Jira" publish_at_startup="false"/>
+			</network>
+		</server>
+	</com.4d>
+</preferences>

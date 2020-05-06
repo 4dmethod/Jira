@@ -1,0 +1,30 @@
+﻿{
+	"JIRA": {
+		"methods": [
+			"Compiler_JIRA_Methods",
+			"JIRA_DeleteIssue",
+			"JIRA_Init",
+			"JIRA_Issue",
+			"JIRA_IssueSummary",
+			"JIRA_Macros",
+			"JIRA_NewIssue",
+			"JIRA_OpenIssue",
+			"JIRA_PrioritiesList",
+			"JIRA_Project",
+			"JIRA_ProjectList",
+			"JIRA_Search",
+			"JIRA_StatusTransitionList",
+			"JIRA_test",
+			"JIRA_UpdateIssue",
+			"JIRA_User"
+		]
+	},
+	"Util": {
+		"methods": [
+			"Compiler_Util_Methods",
+			"OB_CopyToSharedCollection",
+			"OB_CopyToSharedObject"
+		]
+	},
+	"trash": {}
+}

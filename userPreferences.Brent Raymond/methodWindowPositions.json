@@ -1,0 +1,236 @@
+﻿{
+	"Sources/Methods/JIRA_test.4dm": {
+		"left": -1365,
+		"top": 790,
+		"width": 1155,
+		"height": 894
+	},
+	"Sources/Methods/JIRA_Init.4dm": {
+		"left": 36,
+		"top": 152,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/Compiler_JIRA_Methods.4dm": {
+		"left": 120,
+		"top": 499,
+		"width": 774,
+		"height": 476
+	},
+	"Sources/Methods/OB_CopyToSharedObject.4dm": {
+		"left": 391,
+		"top": 103,
+		"width": 1184,
+		"height": 947
+	},
+	"Sources/Methods/OB_CopyToSharedCollection.4dm": {
+		"left": 391,
+		"top": 103,
+		"width": 1184,
+		"height": 947
+	},
+	"Sources/Methods/JIRA_User.4dm": {
+		"left": 666,
+		"top": 214,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_ProjectList.4dm": {
+		"left": 666,
+		"top": 214,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_Project.4dm": {
+		"left": 124,
+		"top": 190,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_PrioritiesList.4dm": {
+		"left": 33,
+		"top": 217,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_NewIssue.4dm": {
+		"left": 33,
+		"top": 125,
+		"width": 1054,
+		"height": 888
+	},
+	"Sources/Methods/JIRA_Issue.4dm": {
+		"left": 178,
+		"top": 342,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_StatusTransitionList.4dm": {
+		"left": 41,
+		"top": 137,
+		"width": 1244,
+		"height": 744
+	},
+	"Sources/Methods/JIRA_UpdateIssue.4dm": {
+		"left": -1574,
+		"top": 790,
+		"width": 1505,
+		"height": 899
+	},
+	"Sources/Methods/JIRA_DeleteIssue.4dm": {
+		"left": 116,
+		"top": 300,
+		"width": 1396,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_Search.4dm": {
+		"left": -1175,
+		"top": 790,
+		"width": 1137,
+		"height": 940
+	},
+	"Sources/Methods/Compiler_Util_Methods.4dm": {
+		"left": 666,
+		"top": 214,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Methods/JIRA_OpenIssue.4dm": {
+		"left": -1599,
+		"top": 869,
+		"width": 1172,
+		"height": 782
+	},
+	"Sources/Methods/Demo.4dm": {
+		"left": -1286,
+		"top": 819,
+		"width": 1009,
+		"height": 805
+	},
+	"Sources/Forms/Demo/method.4dm": {
+		"left": 666,
+		"top": 214,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/Button.4dm": {
+		"left": 485,
+		"top": 239,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateConfig.4dm": {
+		"left": 520,
+		"top": 496,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/issues.4dm": {
+		"left": 325,
+		"top": 131,
+		"width": 1155,
+		"height": 919
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateIssue.4dm": {
+		"left": 862,
+		"top": 281,
+		"width": 784,
+		"height": 734
+	},
+	"Sources/Forms/Demo/ObjectMethods/reloadIssues.4dm": {
+		"left": 533,
+		"top": 109,
+		"width": 1137,
+		"height": 940
+	},
+	"Sources/Forms/Demo/ObjectMethods/clearNewIssue.4dm": {
+		"left": 485,
+		"top": 239,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/Picture Button.4dm": {
+		"left": 485,
+		"top": 239,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseType.4dm": {
+		"left": 561,
+		"top": 299,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/choosePriority.4dm": {
+		"left": 434,
+		"top": 315,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/createNewIssue.4dm": {
+		"left": 553,
+		"top": 371,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateStatus.4dm": {
+		"left": 63,
+		"top": 131,
+		"width": 1009,
+		"height": 805
+	},
+	"Sources/Forms/Demo/ObjectMethods/status.4dm": {
+		"left": 48,
+		"top": 220,
+		"width": 1218,
+		"height": 808
+	},
+	"Sources/Methods/JIRA_Macros.4dm": {
+		"left": -1533,
+		"top": 790,
+		"width": 1244,
+		"height": 894
+	},
+	"Sources/Forms/Demo/ObjectMethods/Tab Control.4dm": {
+		"left": 533,
+		"top": 109,
+		"width": 1137,
+		"height": 940
+	},
+	"Sources/Methods/JIRA_IssueSummary.4dm": {
+		"left": -1278,
+		"top": 864,
+		"width": 1137,
+		"height": 797
+	},
+	"Sources/DatabaseMethods/onWebAuthentication.4dm": {
+		"left": 394,
+		"top": 149,
+		"width": 905,
+		"height": 747
+	},
+	"Sources/DatabaseMethods/onWebConnection.4dm": {
+		"left": -1232,
+		"top": 817,
+		"width": 1108,
+		"height": 770
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseProject.4dm": {
+		"left": 361,
+		"top": 493,
+		"width": 759,
+		"height": 899
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseIssue.4dm": {
+		"left": 450,
+		"top": 158,
+		"width": 1127,
+		"height": 719
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 519,
+		"top": 218,
+		"width": 1137,
+		"height": 797
+	}
+}

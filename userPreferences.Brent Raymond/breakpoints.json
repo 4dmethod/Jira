@@ -1,0 +1,16 @@
+﻿[
+	{
+		"line": 106,
+		"method": {
+			"type": 1,
+			"methodName": "JIRA_test"
+		}
+	},
+	{
+		"line": 28,
+		"method": {
+			"type": 1,
+			"methodName": "JIRA_test"
+		}
+	}
+]

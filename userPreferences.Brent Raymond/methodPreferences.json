@@ -1,0 +1,360 @@
+﻿{
+	"Sources/Methods/JIRA_test.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [
+			64,
+			74,
+			87,
+			96
+		],
+		"bookmarks": [],
+		"stamp": "2020-04-30T20:05:26.753Z"
+	},
+	"Sources/Methods/JIRA_Init.4dm": {
+		"startSelection": 77,
+		"endSelection": 77,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T21:39:48.955Z"
+	},
+	"Sources/Methods/Compiler_JIRA_Methods.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 38,
+		"lastSelectedLine": 38,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-09T18:29:51.620Z"
+	},
+	"Sources/Methods/OB_CopyToSharedObject.4dm": {
+		"startSelection": 0,
+		"endSelection": 8,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-12-30T17:55:01.089Z"
+	},
+	"Sources/Methods/OB_CopyToSharedCollection.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-12-24T17:36:02.611Z"
+	},
+	"Sources/Methods/JIRA_User.4dm": {
+		"startSelection": 5,
+		"endSelection": 91,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.875Z"
+	},
+	"Sources/Methods/JIRA_ProjectList.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.842Z"
+	},
+	"Sources/Methods/JIRA_Project.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.841Z"
+	},
+	"Sources/Methods/JIRA_PrioritiesList.4dm": {
+		"startSelection": 5,
+		"endSelection": 93,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.840Z"
+	},
+	"Sources/Methods/JIRA_NewIssue.4dm": {
+		"startSelection": 91,
+		"endSelection": 5,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:50.610Z"
+	},
+	"Sources/Methods/JIRA_Issue.4dm": {
+		"startSelection": 11,
+		"endSelection": 19,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.826Z"
+	},
+	"Sources/Methods/JIRA_StatusTransitionList.4dm": {
+		"startSelection": 11,
+		"endSelection": 19,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.845Z"
+	},
+	"Sources/Methods/JIRA_UpdateIssue.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 172,
+		"lastSelectedLine": 172,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-09T15:06:53.275Z"
+	},
+	"Sources/Methods/JIRA_DeleteIssue.4dm": {
+		"startSelection": 5,
+		"endSelection": 106,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:24:34.827Z"
+	},
+	"Sources/Methods/JIRA_Search.4dm": {
+		"startSelection": 5,
+		"endSelection": 93,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 19,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T20:00:16.400Z"
+	},
+	"Sources/Methods/Compiler_Util_Methods.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-12-30T17:55:47.327Z"
+	},
+	"Sources/Methods/JIRA_OpenIssue.4dm": {
+		"startSelection": 93,
+		"endSelection": 9,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 23,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-12-30T19:20:39.379Z"
+	},
+	"Sources/Methods/Demo.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-14T21:32:43.999Z"
+	},
+	"Sources/Forms/Demo/method.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T20:52:17.525Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/Button.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-03T17:27:01.142Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateConfig.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-12-31T20:21:04.449Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/issues.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 28,
+		"lastSelectedLine": 28,
+		"folding": [
+			43
+		],
+		"bookmarks": [],
+		"stamp": "2020-01-08T21:55:03.049Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateIssue.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 35,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:40:08.433Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/reloadIssues.4dm": {
+		"startSelection": 13,
+		"endSelection": 74,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-03T17:11:14.478Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/clearNewIssue.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-03T17:27:26.264Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/Picture Button.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-03T17:34:24.705Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseType.4dm": {
+		"startSelection": 64,
+		"endSelection": 78,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T17:32:05.637Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/choosePriority.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T17:31:54.638Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/createNewIssue.4dm": {
+		"startSelection": 31,
+		"endSelection": 45,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-03T18:01:13.843Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/updateStatus.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T15:55:46.586Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/status.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T16:27:53.416Z"
+	},
+	"Sources/Methods/JIRA_Macros.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 79,
+		"lastSelectedLine": 79,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-24T20:09:33.429Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/Tab Control.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T20:50:02.192Z"
+	},
+	"Sources/Methods/JIRA_IssueSummary.4dm": {
+		"startSelection": 62,
+		"endSelection": 62,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-08T21:55:31.935Z"
+	},
+	"Sources/DatabaseMethods/onWebAuthentication.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 23,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-09T15:10:21.137Z"
+	},
+	"Sources/DatabaseMethods/onWebConnection.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-17T21:58:09.599Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseProject.4dm": {
+		"startSelection": 53,
+		"endSelection": 53,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-17T22:07:34.775Z"
+	},
+	"Sources/Forms/Demo/ObjectMethods/chooseIssue.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-17T22:13:51.021Z"
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 0,
+		"endSelection": 4,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-01-24T17:30:05.856Z"
+	}
+}

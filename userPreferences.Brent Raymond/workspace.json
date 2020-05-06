@@ -1,0 +1,20 @@
+﻿{
+	"editors": [
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483642,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Demo"
+			}
+		},
+		{
+			"type": "form",
+			"id": 1,
+			"formName": "Demo"
+		}
+	]
+}

@@ -1,0 +1,1475 @@
+{
+	"currentUser": {
+		"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+		"key": "admin",
+		"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+		"name": "admin",
+		"emailAddress": "4dmethod@gmail.com",
+		"avatarUrls": {
+			"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+			"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+			"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+			"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+		},
+		"displayName": "4D Method",
+		"active": true,
+		"timeZone": "America/Chicago",
+		"locale": "en_US",
+		"groups": {
+			"size": 1,
+			"items": []
+		},
+		"applicationRoles": {
+			"size": 1,
+			"items": []
+		},
+		"expand": "groups,applicationRoles"
+	},
+	"projectList": {
+		"self": "https://4dmethod.atlassian.net/rest/api/3/project/search?maxResults=50&startAt=0",
+		"maxResults": 50,
+		"startAt": 0,
+		"total": 2,
+		"isLast": true,
+		"values": [
+			{
+				"expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+				"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+				"id": "10000",
+				"key": "QL4D",
+				"name": "4D Summit",
+				"avatarUrls": {
+					"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+					"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+					"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+					"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+				},
+				"projectTypeKey": "software",
+				"simplified": false,
+				"style": "classic",
+				"isPrivate": false,
+				"properties": {}
+			},
+			{
+				"expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+				"self": "https://4dmethod.atlassian.net/rest/api/3/project/10001",
+				"id": "10001",
+				"key": "STOR",
+				"name": "Stores",
+				"avatarUrls": {
+					"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10001&avatarId=10422",
+					"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10001&avatarId=10422",
+					"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10001&avatarId=10422",
+					"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10001&avatarId=10422"
+				},
+				"projectTypeKey": "software",
+				"simplified": false,
+				"style": "classic",
+				"isPrivate": false,
+				"properties": {}
+			}
+		]
+	},
+	"projectInfo": {
+		"expand": "description,lead,issueTypes,url,projectKeys,permissions,insight",
+		"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+		"id": "10000",
+		"key": "QL4D",
+		"description": "",
+		"lead": {
+			"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"key": "admin",
+			"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"name": "admin",
+			"avatarUrls": {
+				"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+				"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+				"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+				"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+			},
+			"displayName": "4D Method",
+			"active": true
+		},
+		"components": [],
+		"issueTypes": [
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10001",
+				"id": "10001",
+				"description": "An improvement or enhancement to an existing feature or task.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10310&avatarType=issuetype",
+				"name": "Improvement",
+				"subtask": false,
+				"avatarId": 10310
+			},
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10002",
+				"id": "10002",
+				"description": "A small, distinct piece of work.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+				"name": "Task",
+				"subtask": false,
+				"avatarId": 10318
+			},
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10003",
+				"id": "10003",
+				"description": "A small piece of work that's part of a larger task.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+				"name": "Sub-task",
+				"subtask": true,
+				"avatarId": 10316
+			},
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10004",
+				"id": "10004",
+				"description": "A new feature of the product, which has yet to be developed.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+				"name": "New Feature",
+				"subtask": false,
+				"avatarId": 10311
+			},
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10005",
+				"id": "10005",
+				"description": "A problem or error.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+				"name": "Bug",
+				"subtask": false,
+				"avatarId": 10303
+			},
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10000",
+				"id": "10000",
+				"description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+				"iconUrl": "https://4dmethod.atlassian.net/images/icons/issuetypes/epic.svg",
+				"name": "Epic",
+				"subtask": false
+			}
+		],
+		"assigneeType": "UNASSIGNED",
+		"versions": [
+			{
+				"self": "https://4dmethod.atlassian.net/rest/api/3/version/10000",
+				"id": "10000",
+				"name": "test version",
+				"archived": false,
+				"released": false,
+				"projectId": 10000
+			}
+		],
+		"name": "4D Summit",
+		"roles": {
+			"atlassian-addons-project-access": "https://4dmethod.atlassian.net/rest/api/3/project/10000/role/10003",
+			"Administrators": "https://4dmethod.atlassian.net/rest/api/3/project/10000/role/10002"
+		},
+		"avatarUrls": {
+			"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+			"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+			"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+			"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+		},
+		"projectTypeKey": "software",
+		"simplified": false,
+		"style": "classic",
+		"isPrivate": false,
+		"properties": {}
+	},
+	"priorities": [
+		{
+			"self": "https://4dmethod.atlassian.net/rest/api/3/priority/1",
+			"statusColor": "#d04437",
+			"description": "This problem will block progress.",
+			"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/highest.svg",
+			"name": "Highest",
+			"id": "1"
+		},
+		{
+			"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+			"statusColor": "#f15C75",
+			"description": "Serious problem that could block progress.",
+			"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+			"name": "High",
+			"id": "2"
+		},
+		{
+			"self": "https://4dmethod.atlassian.net/rest/api/3/priority/3",
+			"statusColor": "#f79232",
+			"description": "Has the potential to affect progress.",
+			"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/medium.svg",
+			"name": "Medium",
+			"id": "3"
+		},
+		{
+			"self": "https://4dmethod.atlassian.net/rest/api/3/priority/4",
+			"statusColor": "#707070",
+			"description": "Minor problem or easily worked around.",
+			"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/low.svg",
+			"name": "Low",
+			"id": "4"
+		},
+		{
+			"self": "https://4dmethod.atlassian.net/rest/api/3/priority/5",
+			"statusColor": "#999999",
+			"description": "Trivial problem with little or no impact on progress.",
+			"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/lowest.svg",
+			"name": "Lowest",
+			"id": "5"
+		}
+	],
+	"newIssue": {
+		"id": "10059",
+		"key": "QL4D-58",
+		"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10059"
+	},
+	"currentIssue": {
+		"expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+		"id": "10059",
+		"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10059",
+		"key": "QL4D-58",
+		"fields": {
+			"statuscategorychangedate": "2020-01-24T13:05:28.722-0600",
+			"issuetype": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10005",
+				"id": "10005",
+				"description": "A problem or error.",
+				"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+				"name": "Bug",
+				"subtask": false,
+				"avatarId": 10303
+			},
+			"timespent": null,
+			"project": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+				"id": "10000",
+				"key": "QL4D",
+				"name": "4D Summit",
+				"projectTypeKey": "software",
+				"simplified": false,
+				"avatarUrls": {
+					"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+					"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+					"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+					"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+				}
+			},
+			"fixVersions": [],
+			"aggregatetimespent": null,
+			"resolution": null,
+			"resolutiondate": null,
+			"workratio": -1,
+			"watches": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-58/watchers",
+				"watchCount": 1,
+				"isWatching": true
+			},
+			"lastViewed": null,
+			"created": "2020-01-24T13:05:28.523-0600",
+			"customfield_10020": null,
+			"customfield_10021": null,
+			"customfield_10022": null,
+			"customfield_10023": null,
+			"priority": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+				"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+				"name": "High",
+				"id": "2"
+			},
+			"labels": [
+				"groovy",
+				"v18"
+			],
+			"customfield_10016": null,
+			"customfield_10017": null,
+			"customfield_10018": {
+				"hasEpicLinkFieldDependency": false,
+				"showField": false,
+				"nonEditableReason": {
+					"reason": "PLUGIN_LICENSE_ERROR",
+					"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+				}
+			},
+			"customfield_10019": "0|i0000v:",
+			"aggregatetimeoriginalestimate": null,
+			"timeestimate": null,
+			"versions": [],
+			"issuelinks": [],
+			"assignee": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"name": "admin",
+				"key": "admin",
+				"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"emailAddress": "4dmethod@gmail.com",
+				"avatarUrls": {
+					"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+					"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+					"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+					"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+				},
+				"displayName": "4D Method",
+				"active": true,
+				"timeZone": "America/Chicago",
+				"accountType": "atlassian"
+			},
+			"updated": "2020-01-24T13:05:28.523-0600",
+			"status": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/status/10000",
+				"description": "",
+				"iconUrl": "https://4dmethod.atlassian.net/",
+				"name": "To Do",
+				"id": "10000",
+				"statusCategory": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/2",
+					"id": 2,
+					"key": "new",
+					"colorName": "blue-gray",
+					"name": "To Do"
+				}
+			},
+			"components": [],
+			"timeoriginalestimate": null,
+			"description": {
+				"type": "doc",
+				"version": 1,
+				"content": [
+					{
+						"type": "paragraph",
+						"content": [
+							{
+								"text": "A problem in JIRA_test",
+								"type": "text"
+							}
+						]
+					}
+				]
+			},
+			"customfield_10010": null,
+			"customfield_10014": null,
+			"customfield_10015": null,
+			"timetracking": {},
+			"customfield_10005": null,
+			"customfield_10006": null,
+			"security": null,
+			"customfield_10007": null,
+			"customfield_10008": null,
+			"customfield_10009": null,
+			"aggregatetimeestimate": null,
+			"attachment": [],
+			"summary": "test issue 2020-01-24T19:05:28.191Z",
+			"creator": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"name": "admin",
+				"key": "admin",
+				"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"emailAddress": "4dmethod@gmail.com",
+				"avatarUrls": {
+					"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+					"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+					"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+					"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+				},
+				"displayName": "4D Method",
+				"active": true,
+				"timeZone": "America/Chicago",
+				"accountType": "atlassian"
+			},
+			"subtasks": [],
+			"reporter": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"name": "admin",
+				"key": "admin",
+				"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+				"emailAddress": "4dmethod@gmail.com",
+				"avatarUrls": {
+					"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+					"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+					"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+					"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+				},
+				"displayName": "4D Method",
+				"active": true,
+				"timeZone": "America/Chicago",
+				"accountType": "atlassian"
+			},
+			"customfield_10000": "{}",
+			"aggregateprogress": {
+				"progress": 0,
+				"total": 0
+			},
+			"customfield_10001": null,
+			"customfield_10002": null,
+			"customfield_10003": null,
+			"customfield_10004": null,
+			"environment": null,
+			"duedate": null,
+			"progress": {
+				"progress": 0,
+				"total": 0
+			},
+			"comment": {
+				"comments": [],
+				"maxResults": 0,
+				"total": 0,
+				"startAt": 0
+			},
+			"votes": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-58/votes",
+				"votes": 0,
+				"hasVoted": false
+			},
+			"worklog": {
+				"startAt": 0,
+				"maxResults": 20,
+				"total": 0,
+				"worklogs": []
+			}
+		}
+	},
+	"transitions": [
+		{
+			"id": "11",
+			"name": "To Do",
+			"to": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/status/10000",
+				"description": "",
+				"iconUrl": "https://4dmethod.atlassian.net/",
+				"name": "To Do",
+				"id": "10000",
+				"statusCategory": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/2",
+					"id": 2,
+					"key": "new",
+					"colorName": "blue-gray",
+					"name": "To Do"
+				}
+			},
+			"hasScreen": false,
+			"isGlobal": true,
+			"isInitial": false,
+			"isConditional": false
+		},
+		{
+			"id": "21",
+			"name": "In Progress",
+			"to": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/status/3",
+				"description": "This issue is being actively worked on at the moment by the assignee.",
+				"iconUrl": "https://4dmethod.atlassian.net/images/icons/statuses/inprogress.png",
+				"name": "In Progress",
+				"id": "3",
+				"statusCategory": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/4",
+					"id": 4,
+					"key": "indeterminate",
+					"colorName": "yellow",
+					"name": "In Progress"
+				}
+			},
+			"hasScreen": false,
+			"isGlobal": true,
+			"isInitial": false,
+			"isConditional": false
+		},
+		{
+			"id": "31",
+			"name": "In Review",
+			"to": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/status/10001",
+				"description": "",
+				"iconUrl": "https://4dmethod.atlassian.net/",
+				"name": "In Review",
+				"id": "10001",
+				"statusCategory": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/4",
+					"id": 4,
+					"key": "indeterminate",
+					"colorName": "yellow",
+					"name": "In Progress"
+				}
+			},
+			"hasScreen": false,
+			"isGlobal": true,
+			"isInitial": false,
+			"isConditional": false
+		},
+		{
+			"id": "41",
+			"name": "Done",
+			"to": {
+				"self": "https://4dmethod.atlassian.net/rest/api/3/status/10002",
+				"description": "",
+				"iconUrl": "https://4dmethod.atlassian.net/",
+				"name": "Done",
+				"id": "10002",
+				"statusCategory": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/3",
+					"id": 3,
+					"key": "done",
+					"colorName": "green",
+					"name": "Done"
+				}
+			},
+			"hasScreen": false,
+			"isGlobal": true,
+			"isInitial": false,
+			"isConditional": false
+		}
+	],
+	"updatedIssue": {
+		"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10059/comment/10027",
+		"id": "10027",
+		"author": {
+			"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"name": "admin",
+			"key": "admin",
+			"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"emailAddress": "4dmethod@gmail.com",
+			"avatarUrls": {
+				"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+				"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+				"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+				"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+			},
+			"displayName": "4D Method",
+			"active": true,
+			"timeZone": "America/Chicago",
+			"accountType": "atlassian"
+		},
+		"body": {
+			"type": "doc",
+			"version": 1,
+			"content": [
+				{
+					"type": "paragraph",
+					"content": [
+						{
+							"text": "This is a comment about the issue!\n",
+							"type": "text"
+						}
+					]
+				}
+			]
+		},
+		"updateAuthor": {
+			"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"name": "admin",
+			"key": "admin",
+			"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+			"emailAddress": "4dmethod@gmail.com",
+			"avatarUrls": {
+				"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+				"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+				"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+				"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+			},
+			"displayName": "4D Method",
+			"active": true,
+			"timeZone": "America/Chicago",
+			"accountType": "atlassian"
+		},
+		"created": "2020-01-24T13:05:31.324-0600",
+		"updated": "2020-01-24T13:05:31.324-0600",
+		"jsdPublic": true
+	},
+	"search1": [
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "10059",
+			"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10059",
+			"key": "QL4D-58",
+			"fields": {
+				"statuscategorychangedate": "2020-01-24T13:05:30.931-0600",
+				"issuetype": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10005",
+					"id": "10005",
+					"description": "A problem or error.",
+					"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+					"name": "Bug",
+					"subtask": false,
+					"avatarId": 10303
+				},
+				"timespent": null,
+				"project": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+					"id": "10000",
+					"key": "QL4D",
+					"name": "4D Summit",
+					"projectTypeKey": "software",
+					"simplified": false,
+					"avatarUrls": {
+						"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+						"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+						"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+						"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+					}
+				},
+				"fixVersions": [],
+				"aggregatetimespent": null,
+				"resolution": null,
+				"resolutiondate": null,
+				"workratio": -1,
+				"watches": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-58/watchers",
+					"watchCount": 1,
+					"isWatching": true
+				},
+				"lastViewed": null,
+				"created": "2020-01-24T13:05:28.523-0600",
+				"customfield_10020": null,
+				"customfield_10021": null,
+				"customfield_10022": null,
+				"priority": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+					"name": "High",
+					"id": "2"
+				},
+				"customfield_10023": null,
+				"labels": [
+					"groovy",
+					"v18"
+				],
+				"customfield_10016": null,
+				"customfield_10017": null,
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": false,
+					"showField": false,
+					"nonEditableReason": {
+						"reason": "PLUGIN_LICENSE_ERROR",
+						"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+					}
+				},
+				"customfield_10019": "0|i0000v:",
+				"timeestimate": null,
+				"aggregatetimeoriginalestimate": null,
+				"versions": [],
+				"issuelinks": [],
+				"assignee": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"updated": "2020-01-24T13:05:31.324-0600",
+				"status": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/status/3",
+					"description": "This issue is being actively worked on at the moment by the assignee.",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/statuses/inprogress.png",
+					"name": "In Progress",
+					"id": "3",
+					"statusCategory": {
+						"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/4",
+						"id": 4,
+						"key": "indeterminate",
+						"colorName": "yellow",
+						"name": "In Progress"
+					}
+				},
+				"components": [],
+				"timeoriginalestimate": null,
+				"description": {
+					"type": "doc",
+					"version": 1,
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"text": "A problem in JIRA_test",
+									"type": "text"
+								}
+							]
+						}
+					]
+				},
+				"customfield_10010": null,
+				"customfield_10014": null,
+				"customfield_10015": null,
+				"customfield_10005": null,
+				"customfield_10006": null,
+				"customfield_10007": null,
+				"security": null,
+				"customfield_10008": null,
+				"customfield_10009": null,
+				"aggregatetimeestimate": null,
+				"summary": "123 issue 2020-01-24T19:05:29.785Z",
+				"creator": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"subtasks": [],
+				"reporter": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"customfield_10000": "{}",
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"customfield_10001": null,
+				"customfield_10002": null,
+				"customfield_10003": null,
+				"customfield_10004": null,
+				"environment": null,
+				"duedate": null,
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"votes": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-58/votes",
+					"votes": 0,
+					"hasVoted": false
+				}
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "10057",
+			"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10057",
+			"key": "QL4D-56",
+			"fields": {
+				"statuscategorychangedate": "2020-01-08T13:19:04.974-0600",
+				"issuetype": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10004",
+					"id": "10004",
+					"description": "A new feature of the product, which has yet to be developed.",
+					"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+					"name": "New Feature",
+					"subtask": false,
+					"avatarId": 10311
+				},
+				"timespent": null,
+				"project": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+					"id": "10000",
+					"key": "QL4D",
+					"name": "4D Summit",
+					"projectTypeKey": "software",
+					"simplified": false,
+					"avatarUrls": {
+						"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+						"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+						"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+						"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+					}
+				},
+				"fixVersions": [],
+				"aggregatetimespent": null,
+				"resolution": null,
+				"resolutiondate": null,
+				"workratio": -1,
+				"lastViewed": "2020-01-24T11:31:56.697-0600",
+				"watches": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-56/watchers",
+					"watchCount": 1,
+					"isWatching": true
+				},
+				"created": "2020-01-03T12:02:31.320-0600",
+				"customfield_10020": null,
+				"customfield_10021": null,
+				"customfield_10022": null,
+				"customfield_10023": null,
+				"priority": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+					"name": "High",
+					"id": "2"
+				},
+				"labels": [
+					"funk",
+					"monk"
+				],
+				"customfield_10016": null,
+				"customfield_10017": null,
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": false,
+					"showField": false,
+					"nonEditableReason": {
+						"reason": "PLUGIN_LICENSE_ERROR",
+						"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+					}
+				},
+				"customfield_10019": "0|i0000n:",
+				"timeestimate": null,
+				"aggregatetimeoriginalestimate": null,
+				"versions": [],
+				"issuelinks": [],
+				"assignee": null,
+				"updated": "2020-01-08T13:19:04.974-0600",
+				"status": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/status/3",
+					"description": "This issue is being actively worked on at the moment by the assignee.",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/statuses/inprogress.png",
+					"name": "In Progress",
+					"id": "3",
+					"statusCategory": {
+						"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/4",
+						"id": 4,
+						"key": "indeterminate",
+						"colorName": "yellow",
+						"name": "In Progress"
+					}
+				},
+				"components": [],
+				"timeoriginalestimate": null,
+				"description": {
+					"type": "doc",
+					"version": 1,
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"text": "aasdfadsf",
+									"type": "text"
+								}
+							]
+						}
+					]
+				},
+				"customfield_10010": null,
+				"customfield_10014": null,
+				"customfield_10015": null,
+				"customfield_10005": null,
+				"customfield_10006": null,
+				"security": null,
+				"customfield_10007": null,
+				"customfield_10008": null,
+				"aggregatetimeestimate": null,
+				"customfield_10009": null,
+				"summary": "test create 2",
+				"creator": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"subtasks": [],
+				"reporter": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": null,
+				"customfield_10002": null,
+				"customfield_10003": null,
+				"customfield_10004": null,
+				"environment": null,
+				"duedate": null,
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"votes": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-56/votes",
+					"votes": 0,
+					"hasVoted": false
+				}
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "10056",
+			"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10056",
+			"key": "QL4D-55",
+			"fields": {
+				"statuscategorychangedate": "2020-01-03T11:58:49.633-0600",
+				"issuetype": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10004",
+					"id": "10004",
+					"description": "A new feature of the product, which has yet to be developed.",
+					"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+					"name": "New Feature",
+					"subtask": false,
+					"avatarId": 10311
+				},
+				"timespent": null,
+				"project": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+					"id": "10000",
+					"key": "QL4D",
+					"name": "4D Summit",
+					"projectTypeKey": "software",
+					"simplified": false,
+					"avatarUrls": {
+						"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+						"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+						"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+						"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+					}
+				},
+				"fixVersions": [],
+				"aggregatetimespent": null,
+				"resolution": null,
+				"resolutiondate": null,
+				"workratio": -1,
+				"lastViewed": "2020-01-03T12:01:40.998-0600",
+				"watches": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-55/watchers",
+					"watchCount": 1,
+					"isWatching": true
+				},
+				"created": "2020-01-03T11:58:49.464-0600",
+				"customfield_10020": null,
+				"customfield_10021": null,
+				"customfield_10022": null,
+				"priority": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+					"name": "High",
+					"id": "2"
+				},
+				"customfield_10023": null,
+				"labels": [
+					"funk",
+					"monk"
+				],
+				"customfield_10016": null,
+				"customfield_10017": null,
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": false,
+					"showField": false,
+					"nonEditableReason": {
+						"reason": "PLUGIN_LICENSE_ERROR",
+						"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+					}
+				},
+				"customfield_10019": "0|i0000f:",
+				"aggregatetimeoriginalestimate": null,
+				"timeestimate": null,
+				"versions": [],
+				"issuelinks": [],
+				"assignee": null,
+				"updated": "2020-01-03T11:58:49.464-0600",
+				"status": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/status/10000",
+					"description": "",
+					"iconUrl": "https://4dmethod.atlassian.net/",
+					"name": "To Do",
+					"id": "10000",
+					"statusCategory": {
+						"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/2",
+						"id": 2,
+						"key": "new",
+						"colorName": "blue-gray",
+						"name": "To Do"
+					}
+				},
+				"components": [],
+				"timeoriginalestimate": null,
+				"description": {
+					"type": "doc",
+					"version": 1,
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"text": "aasdfadsf",
+									"type": "text"
+								}
+							]
+						}
+					]
+				},
+				"customfield_10010": null,
+				"customfield_10014": null,
+				"customfield_10015": null,
+				"customfield_10005": null,
+				"customfield_10006": null,
+				"security": null,
+				"customfield_10007": null,
+				"customfield_10008": null,
+				"customfield_10009": null,
+				"aggregatetimeestimate": null,
+				"summary": "test create",
+				"creator": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"subtasks": [],
+				"reporter": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": null,
+				"customfield_10002": null,
+				"customfield_10003": null,
+				"customfield_10004": null,
+				"environment": null,
+				"duedate": null,
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"votes": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-55/votes",
+					"votes": 0,
+					"hasVoted": false
+				}
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "10055",
+			"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10055",
+			"key": "QL4D-54",
+			"fields": {
+				"statuscategorychangedate": "2019-12-31T15:35:51.443-0600",
+				"issuetype": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10005",
+					"id": "10005",
+					"description": "A problem or error.",
+					"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+					"name": "Bug",
+					"subtask": false,
+					"avatarId": 10303
+				},
+				"timespent": null,
+				"project": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+					"id": "10000",
+					"key": "QL4D",
+					"name": "4D Summit",
+					"projectTypeKey": "software",
+					"simplified": false,
+					"avatarUrls": {
+						"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+						"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+						"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+						"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+					}
+				},
+				"fixVersions": [],
+				"aggregatetimespent": null,
+				"resolution": null,
+				"resolutiondate": null,
+				"workratio": -1,
+				"lastViewed": "2020-01-09T09:32:43.749-0600",
+				"watches": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-54/watchers",
+					"watchCount": 1,
+					"isWatching": true
+				},
+				"created": "2019-12-31T15:35:51.257-0600",
+				"customfield_10020": null,
+				"customfield_10021": null,
+				"customfield_10022": null,
+				"customfield_10023": null,
+				"priority": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+					"name": "High",
+					"id": "2"
+				},
+				"labels": [
+					"bug",
+					"icky",
+					"play"
+				],
+				"customfield_10016": null,
+				"customfield_10017": null,
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": false,
+					"showField": false,
+					"nonEditableReason": {
+						"reason": "PLUGIN_LICENSE_ERROR",
+						"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+					}
+				},
+				"customfield_10019": "0|i00007:",
+				"timeestimate": null,
+				"aggregatetimeoriginalestimate": null,
+				"versions": [],
+				"issuelinks": [],
+				"assignee": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"updated": "2020-01-02T14:35:34.525-0600",
+				"status": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/status/10000",
+					"description": "",
+					"iconUrl": "https://4dmethod.atlassian.net/",
+					"name": "To Do",
+					"id": "10000",
+					"statusCategory": {
+						"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/2",
+						"id": 2,
+						"key": "new",
+						"colorName": "blue-gray",
+						"name": "To Do"
+					}
+				},
+				"components": [],
+				"timeoriginalestimate": null,
+				"description": {
+					"type": "doc",
+					"version": 1,
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"text": "I want you to do it because you never touch bugs!!!!",
+									"type": "text"
+								}
+							]
+						}
+					]
+				},
+				"customfield_10010": null,
+				"customfield_10014": null,
+				"customfield_10015": null,
+				"customfield_10005": null,
+				"customfield_10006": null,
+				"security": null,
+				"customfield_10007": null,
+				"customfield_10008": null,
+				"customfield_10009": null,
+				"aggregatetimeestimate": null,
+				"summary": "Play with bugs",
+				"creator": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"subtasks": [],
+				"reporter": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"customfield_10000": "{}",
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"customfield_10001": null,
+				"customfield_10002": null,
+				"customfield_10003": null,
+				"customfield_10004": null,
+				"environment": null,
+				"duedate": null,
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"votes": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-54/votes",
+					"votes": 0,
+					"hasVoted": false
+				}
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "10054",
+			"self": "https://4dmethod.atlassian.net/rest/api/3/issue/10054",
+			"key": "QL4D-53",
+			"fields": {
+				"statuscategorychangedate": "2020-01-14T15:20:06.954-0600",
+				"issuetype": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issuetype/10005",
+					"id": "10005",
+					"description": "A problem or error.",
+					"iconUrl": "https://4dmethod.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+					"name": "Bug",
+					"subtask": false,
+					"avatarId": 10303
+				},
+				"timespent": null,
+				"project": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/project/10000",
+					"id": "10000",
+					"key": "QL4D",
+					"name": "4D Summit",
+					"projectTypeKey": "software",
+					"simplified": false,
+					"avatarUrls": {
+						"48x48": "https://4dmethod.atlassian.net/secure/projectavatar?pid=10000&avatarId=10425",
+						"24x24": "https://4dmethod.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10425",
+						"16x16": "https://4dmethod.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10425",
+						"32x32": "https://4dmethod.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10425"
+					}
+				},
+				"fixVersions": [],
+				"aggregatetimespent": null,
+				"resolution": null,
+				"resolutiondate": null,
+				"workratio": -1,
+				"watches": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-53/watchers",
+					"watchCount": 1,
+					"isWatching": true
+				},
+				"lastViewed": "2020-01-17T13:59:16.278-0600",
+				"created": "2019-12-30T13:21:56.563-0600",
+				"customfield_10020": null,
+				"customfield_10021": null,
+				"customfield_10022": null,
+				"customfield_10023": null,
+				"priority": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/priority/2",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/priorities/high.svg",
+					"name": "High",
+					"id": "2"
+				},
+				"labels": [
+					"groovy",
+					"learning",
+					"music",
+					"v18"
+				],
+				"customfield_10016": null,
+				"customfield_10017": null,
+				"customfield_10018": {
+					"hasEpicLinkFieldDependency": false,
+					"showField": false,
+					"nonEditableReason": {
+						"reason": "PLUGIN_LICENSE_ERROR",
+						"message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+					}
+				},
+				"customfield_10019": "0|hzzzzz:",
+				"aggregatetimeoriginalestimate": null,
+				"timeestimate": null,
+				"versions": [],
+				"issuelinks": [],
+				"assignee": null,
+				"updated": "2020-01-14T15:35:58.673-0600",
+				"status": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/status/3",
+					"description": "This issue is being actively worked on at the moment by the assignee.",
+					"iconUrl": "https://4dmethod.atlassian.net/images/icons/statuses/inprogress.png",
+					"name": "In Progress",
+					"id": "3",
+					"statusCategory": {
+						"self": "https://4dmethod.atlassian.net/rest/api/3/statuscategory/4",
+						"id": 4,
+						"key": "indeterminate",
+						"colorName": "yellow",
+						"name": "In Progress"
+					}
+				},
+				"components": [],
+				"timeoriginalestimate": null,
+				"description": {
+					"type": "doc",
+					"version": 1,
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"text": "A problem in JIRA_test.",
+									"type": "text"
+								}
+							]
+						}
+					]
+				},
+				"customfield_10010": null,
+				"customfield_10014": null,
+				"customfield_10015": null,
+				"customfield_10005": null,
+				"customfield_10006": null,
+				"security": null,
+				"customfield_10007": null,
+				"customfield_10008": null,
+				"aggregatetimeestimate": null,
+				"customfield_10009": null,
+				"summary": "Play piano",
+				"creator": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"subtasks": [],
+				"reporter": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/user?accountId=557058%3Ab1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"name": "admin",
+					"key": "admin",
+					"accountId": "557058:b1b9321d-7e10-4cbe-82a3-39bd0502be1e",
+					"emailAddress": "4dmethod@gmail.com",
+					"avatarUrls": {
+						"48x48": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=48&s=48",
+						"24x24": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=24&s=24",
+						"16x16": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=16&s=16",
+						"32x32": "https://secure.gravatar.com/avatar/b9dba44f0f2377d98247e2a48e3dbcd2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png&size=32&s=32"
+					},
+					"displayName": "4D Method",
+					"active": true,
+					"timeZone": "America/Chicago",
+					"accountType": "atlassian"
+				},
+				"aggregateprogress": {
+					"progress": 0,
+					"total": 0
+				},
+				"customfield_10000": "{}",
+				"customfield_10001": null,
+				"customfield_10002": null,
+				"customfield_10003": null,
+				"customfield_10004": null,
+				"environment": null,
+				"duedate": null,
+				"progress": {
+					"progress": 0,
+					"total": 0
+				},
+				"votes": {
+					"self": "https://4dmethod.atlassian.net/rest/api/3/issue/QL4D-53/votes",
+					"votes": 0,
+					"hasVoted": false
+				}
+			}
+		}
+	]
+} 

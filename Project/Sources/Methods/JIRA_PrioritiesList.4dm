@@ -1,0 +1,31 @@
+//%attributes = {}
+  // JIRA_PrioritiesList : Collection
+  // 
+  // Created by Brent Raymond on 12/27/19
+  // Purpose: 
+  // 
+  // Note:
+  // https://developer.atlassian.com/cloud/jira/platform/rest/v3/#api-rest-api-3-priority-get
+  //  
+  // History:
+
+
+C_COLLECTION:C1488($0;$cResult)
+
+C_LONGINT:C283($lStatus)
+
+ARRAY TEXT:C222($atHeaderNames;0)
+ARRAY TEXT:C222($atHeaderValues;0)
+
+If (JIRA_Init .success)
+	HTTP AUTHENTICATE:C1161(JIRA_Init .username;JIRA_Init .password;HTTP basic:K71:8)
+	
+	COLLECTION TO ARRAY:C1562(JIRA_Init .headerNames;$atHeaderNames)
+	COLLECTION TO ARRAY:C1562(JIRA_Init .headerValues;$atHeaderValues)
+	
+	$lStatus:=HTTP Get:C1157(JIRA_Init .server+"/rest/api/3/priority";$cResult;$atHeaderNames;$atHeaderValues)
+	
+	
+End if 
+
+$0:=$cResult
